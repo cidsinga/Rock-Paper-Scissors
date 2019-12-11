@@ -44,6 +44,7 @@ class Game
   end
 
   def game_win()
+    puts @player2
     if @input1.fetch(@player2) == "win"
       puts "You Win"
       # @player_one_wins +=1
